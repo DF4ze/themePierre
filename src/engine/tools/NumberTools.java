@@ -10,7 +10,7 @@ public class NumberTools {
 
     private static void init()
     {
-	    referentiel = new HashMap<String, Integer>();
+	referentiel = new HashMap<String, Integer>();
 	String all = "abcdefghijklmnopqrstuvwxyz";
 
 	for (int i = 0; i < all.length(); i++) {
@@ -33,7 +33,7 @@ public class NumberTools {
 
     public static Integer reduce(Integer number) {
 	Integer temp = number;
-	while(temp > 32) {
+	while (temp > 33) {
 	    temp = addition(temp);
 	}
 	return temp;
